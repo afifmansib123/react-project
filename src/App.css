@@ -1,0 +1,98 @@
+
+.App {
+  text-align: center;
+ 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.tab-wrapper{
+  box-shadow: 10px #282c34;
+}
+.table-borderless td,
+.table-borderless th, tbody {
+    border: 0;
+}
+.nav-tabs .nav-link {
+  margin-bottom: -1px;
+  /*padding-left: 510px;*/
+  background: 0 0;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color:#c50000;
+  font-weight: 600;
+}
+.nav{
+  box-shadow: "1px 1px 10px #9E9E9E";
+  border-radius:"10px";
+}
+.nav-tabs {
+  border-bottom: none;
+}
+
+.nav-link{
+  text-align: center;
+  position: relative;
+  width: 600px;
+}
+.nav-tabs{
+  box-shadow: "1px 1px 10px #9E9E9E";
+  border-radius:"10px";
+
+  
+  
+  
+}
+
+.nav-tabs .nav-link:hover{
+  color:gray;
+  text-align: center;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: rgba(128, 128, 128, 0.281);
+  border-bottom: 2px solid red;
+  text-align: center;
+  box-shadow: "1px 1px 10px #9E9E9E";
+  
+}
+
+.tab-item-wrapper{
+  margin-top: 10px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
